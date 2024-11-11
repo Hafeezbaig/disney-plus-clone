@@ -34,7 +34,7 @@ function Header() {
     ];
 
     return (
-        <div className='flex items-center justify-between p-5'>
+        <div className='flex items-center justify-between p-5 w-screen'>
             <div className='flex gap-8 items-center'>
                 <img src={logo} className='w-[100px] md:w-[115px] object-cover' />
                 <div className='hidden md:flex gap-8'>
@@ -60,7 +60,7 @@ function Header() {
             </div>
             <img
                 src='https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png'
-                className='w-[40px] rounded-full'
+                className='flex w-[40px] rounded-full'
             />
         </div>
     );
