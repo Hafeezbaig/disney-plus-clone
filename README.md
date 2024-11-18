@@ -1,14 +1,52 @@
-# React + Vite
+# Disney+ Clone App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+Follow the steps below to clone, install dependencies, and run the project locally.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Clone the Repository
 
-### Add Production House Component in App.jsx
-
+```bash
+git clone <repository-url>
 ```
-    <ProductionHouse/>
+
+Replace `<repository-url>` with the actual URL of your Git repository.
+
+### Install Dependencies
+
+Ensure you have **Node.js** installed on your system (Windows/Mac). If not, [download and install Node.js](https://nodejs.org/).
+
+```bash
+npm install
 ```
+
+### Enable Production House Module (Optional)
+
+To view the production house modules on the website, you need to enable the `ProductionHouse` component in `App.jsx`.
+
+Simply add the following code snippet:
+
+```jsx
+<ProductionHouse />
+```
+
+> **Note**: This component is disabled by default to save Vercel Bandwidth Usage.
+
+### Run the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+### About Me
+
+- **Author**: Hafeez Baig
+- **Portfolio**: [hafeezbaig.in](https://hafeezbaig.in)
+- **Connect**: [connect.hafeezbaig.in](https://connect.hafeezbaig.in)
+- **Support**: [buymeacoffee](https://go.hafeezbaig.in/buymeacoffee)
+
+---
+
+Feel free to customize further if needed!
