@@ -16,11 +16,15 @@ const MovieList = ({genreId}) => {
     }
 
   return (
+    <div>
+
     <div className='flex overflow-x-auto gap-8 scrollbar-none pt-5 px-3 pb-5'>
         {movieList.map((item, index)=>(
             <MovieCard movie={item}/>
         ))}
     </div>
+        </div>
+
   )
 }
 
